@@ -14,6 +14,6 @@ function Square({black, children}) {
             {children}
         </div>
     );
-};
+}
 
 export default Square;

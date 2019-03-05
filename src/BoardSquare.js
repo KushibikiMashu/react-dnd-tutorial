@@ -5,7 +5,7 @@ import { ItemTypes } from "./Constants";
 import { DropTarget } from 'react-dnd'
 
 const squareTarget = {
-    canDrop(props){
+    canDrop(props) {
         return canMoveKnight(props.x, props.y);
     },
 
@@ -25,7 +25,7 @@ function collect(connect, monitor) {
 function BoardSquare({x, y, connectDropTarget, isOver, canDrop, children}) {
     const black = (x + y) % 2 === 1;
 
-    function renderOverlay(color){
+    function renderOverlay(color) {
         return (
             <div style={{
                 position: 'absolute',
@@ -36,7 +36,7 @@ function BoardSquare({x, y, connectDropTarget, isOver, canDrop, children}) {
                 zIndex: 1,
                 opacity: 0.5,
                 backgroundColor: color,
-            }} />
+            }}/>
         );
     }
 

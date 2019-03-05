@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 // import * as serviceWorker from './serviceWorker';
 
 import Board from './Board'
-import {observe} from "./Game";
+import { observe } from "./Game";
 
 const root = document.getElementById('root');
 
