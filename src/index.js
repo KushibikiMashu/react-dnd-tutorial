@@ -23,3 +23,5 @@ observe(knightPosition =>
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 // serviceWorker.unregister();
+
+// https://gist.github.com/saitoxu/70aa7204b3b3fb4e82b749fa55115a1b
